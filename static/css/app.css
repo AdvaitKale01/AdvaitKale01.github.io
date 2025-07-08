@@ -1818,6 +1818,20 @@ nav.wrapper a:hover span {
   color: #ff5242;
 }
 
+.video-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.245, 0.025, 0.155, 1);
+  z-index: 2; /* Lower than text/svg, higher than video */
+}
+
+.box.active .video-overlay {
+  opacity: 0.7;
+}
+
 /* form */
 input[type="text"],
 input[type="password"],

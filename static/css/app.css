@@ -1555,7 +1555,17 @@ ul.socials li a:hover {
 }
 
 .post-image-8 {
-  background: url(../../images/@stock/work-3.jpg) center center no-repeat;
+  background: url(../../images/@stock/bioimg/usc.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.post-image-9 {
+  background: url(../../images/@stock/bioimg/quantiphi.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.post-image-10 {
+  background: url(../../images/@stock/bioimg/webcraftit.png) center center no-repeat;
   background-size: cover;
 }
 

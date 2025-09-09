@@ -1566,7 +1566,8 @@ ul.socials li a:hover {
 }
 
 .post-image-10 {
-  background: url(../../images/@stock/bioimg/webcraftit.png) center center no-repeat;
+  /* background: url(../../images/@stock/bioimg/webcraftit.png) center center no-repeat; */
+  background: url(../../images/@stock/bioimg/capgemini.jpg) center center no-repeat;
   background-size: cover;
 }
 
